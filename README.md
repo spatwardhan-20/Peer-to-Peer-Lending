@@ -130,7 +130,7 @@ The XGBoost model reported an accuracy of 71% (best performing model out of the 
 ![image](results/output/classification_report.png)
 
  # 5.   Model Explainability (SHapley Additive exPlanations - SHAP)
-We used the SHAP Python package to interpret our model. SHAP is an increasingly popular method used for interpretable machine learning.
+We used the SHAP Python package to interpret our model. SHAP is an increasingly popular method used for interpretable machine learning.SHAP is a unified approach to explain the output of any machine learning model. SHAP connects game theory with local explanations, representing the only possible consistent and locally accurate additive feature attribution method based on expectations.SHAP assigns each feature an importance value for a particular prediction.
 ### Feature Contributions (force plot)
 We used a force plot to summarize how each feature contributes to an individual prediction. (insert force plot image and add explanation)
 
